@@ -1,0 +1,28 @@
+# Raw source data — never versioned. Pulled fresh into data/raw/ during Phase 1.
+data/raw/
+
+# Regenerable analysis outputs
+output/
+
+# R session
+.Rhistory
+.RData
+.Rapp.history
+.Ruserdata
+*.Rproj.user/
+
+# macOS
+.DS_Store
+
+# LaTeX build artefacts
+paper/**/*.aux
+paper/**/*.log
+paper/**/*.out
+paper/**/*.toc
+paper/**/*.bbl
+paper/**/*.blg
+paper/**/*.synctex.gz
+paper/**/*.fdb_latexmk
+paper/**/*.fls
+
+# renv manages its own .gitignore inside renv/ after renv::init()
