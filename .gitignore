@@ -30,3 +30,9 @@ paper/**/*.fls
 # Private/local-only files (not for the public repo)
 Thesis docx.docx
 Total UPI States-2021/
+
+# Claude Code project instructions — local-only, not for the public repo
+CLAUDE.md
+
+# Internal learning journal — local-only
+learning day 1.md
