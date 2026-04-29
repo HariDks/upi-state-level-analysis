@@ -3,12 +3,12 @@ Andhra Pradesh,AP,ANDHRA PRADESH|Andhra pradesh|andhra pradesh,TRUE,"Part I orig
 Arunachal Pradesh,AR,ARUNACHAL PRADESH|Arunachal pradesh|arunachal pradesh,TRUE,Part I original panel.
 Assam,AS,ASSAM|assam,TRUE,Part I original panel.
 Bihar,BR,BIHAR|bihar,TRUE,Part I original panel.
-Chhattisgarh,CG,CHHATTISGARH|Chattisgarh|Chhatisgarh|chhattisgarh|CHATTISGARH,TRUE,Part I original panel. Misspellings common in sources.
+Chhattisgarh,CG,CHHATTISGARH|Chattisgarh|Chhatisgarh|chhattisgarh|CHATTISGARH|chattisgarh,TRUE,Part I original panel. Misspellings common in sources.
 Goa,GA,GOA|goa,TRUE,Part I original panel.
 Gujarat,GJ,GUJARAT|gujarat,TRUE,Part I original panel.
 Haryana,HR,HARYANA|haryana,TRUE,Part I original panel.
 Himachal Pradesh,HP,HIMACHAL PRADESH|Himachal pradesh|himachal pradesh,TRUE,Part I original panel.
-Jammu and Kashmir,JK,Jammu & Kashmir|J&K|JAMMU AND KASHMIR|Jammu and Kashmir |jammu and kashmir|Jammu & Kashmir*|J and K,TRUE,"Part I original panel. Treat as single unit for all Part I years (2017-18 to 2020-21). Reorganized Oct 2019 into J&K UT + Ladakh UT; if any 2020-21 source reports Ladakh separately, sum into J&K and document in a footnote. Part II: treat separately from Ladakh (per CLAUDE.md §6)."
+Jammu and Kashmir,JK,Jammu & Kashmir|J&K|JAMMU AND KASHMIR|JAMMU & KASHMIR|Jammu and Kashmir |jammu and kashmir|Jammu & Kashmir*|J and K|Jammu&Kashmir|Jammu And Kashmir|Jammu & Kashmir1|Jammu & Kashmir 1,TRUE,"Part I original panel. Treat as single unit for all Part I years (2017-18 to 2020-21). Reorganized Oct 2019 into J&K UT + Ladakh UT; if any 2020-21 source reports Ladakh separately, sum into J&K and document in a footnote. Part II: treat separately from Ladakh (per CLAUDE.md §6)."
 Jharkhand,JH,JHARKHAND|jharkhand,TRUE,Part I original panel.
 Karnataka,KA,KARNATAKA|karnataka,TRUE,Part I original panel.
 Kerala,KL,KERALA|kerala,TRUE,Part I original panel.
@@ -19,20 +19,26 @@ Meghalaya,ML,MEGHALAYA|meghalaya,TRUE,Part I original panel.
 Mizoram,MZ,MIZORAM|mizoram,TRUE,Part I original panel.
 Nagaland,NL,NAGALAND|nagaland,TRUE,Part I original panel.
 Odisha,OR,Orissa|ODISHA|ORISSA|odisha|orissa,TRUE,Part I original panel. Renamed from Orissa in 2011; both spellings appear in Indian data sources.
-Puducherry,PY,Pondicherry|PUDUCHERRY|PONDICHERRY|pondicherry|puducherry,TRUE,"Part I original panel — the ONLY UT in the original 30-unit sample. Renamed from Pondicherry in 2006; both spellings appear."
+Puducherry,PY,Pondicherry|PUDUCHERRY|PONDICHERRY|pondicherry|puducherry|Puduchery,TRUE,"Part I original panel — the ONLY UT in the original 30-unit sample. Renamed from Pondicherry in 2006; both spellings appear."
 Punjab,PB,PUNJAB|punjab,TRUE,Part I original panel.
 Rajasthan,RJ,RAJASTHAN|rajasthan,TRUE,Part I original panel.
 Sikkim,SK,SIKKIM|sikkim,TRUE,Part I original panel.
-Tamil Nadu,TN,TAMIL NADU|Tamilnadu|TAMILNADU|tamil nadu|tamilnadu,TRUE,Part I original panel.
+Tamil Nadu,TN,TAMIL NADU|Tamilnadu|TAMILNADU|tamil nadu|tamilnadu|Tamil Nadu incl. Chennai|Tamil Nadu (incl. Chennai),TRUE,Part I original panel.
 Telangana,TG,TELANGANA|telangana,TRUE,"Part I original panel. Bifurcated from Andhra Pradesh in June 2014; both states separate throughout the sample period — no special handling required."
 Tripura,TR,TRIPURA|tripura,TRUE,Part I original panel.
-Uttar Pradesh,UP,UTTAR PRADESH|Uttar pradesh|uttar pradesh,TRUE,Part I original panel.
+Uttar Pradesh,UP,UTTAR PRADESH|Uttar pradesh|uttar pradesh|Uttar Pradesh (UPE+UPW)|UPE+UPW|UP (East+West),TRUE,Part I original panel.
 Uttarakhand,UK,Uttaranchal|UTTARAKHAND|UTTARANCHAL|uttarakhand|uttaranchal,TRUE,Part I original panel. Renamed from Uttaranchal in 2007; both spellings appear.
-West Bengal,WB,WEST BENGAL|West bengal|west bengal,TRUE,Part I original panel.
+West Bengal,WB,WEST BENGAL|West bengal|west bengal|West Bengal incl. Kolkata|West Bengal (incl. Kolkata),TRUE,Part I original panel.
 Ladakh,LA,LADAKH|ladakh|Ladakh UT,TRUE,"Created Oct 2019 from J&K reorganization. Part I: if any source reports Ladakh separately for 2020-21, aggregate into Jammu and Kashmir and document. Part II: separate unit per CLAUDE.md §6."
-Delhi,DL,DELHI|NCT of Delhi|National Capital Territory of Delhi|NCT Delhi|Delhi (NCT)|delhi|New Delhi|NEW DELHI,TRUE,"NOT in Part I original 30-unit panel (original thesis excluded Delhi — reason unclear from the doc; possibly source availability in the Indiastat compilation, possibly deliberate metro outlier exclusion). Reassess inclusion for Part I rebuild and Part II."
+Delhi,DL,DELHI|NCT of Delhi|NCT OF DELHI|National Capital Territory of Delhi|NCT Delhi|Delhi (NCT)|delhi|New Delhi|NEW DELHI,TRUE,"NOT in Part I original 30-unit panel (original thesis excluded Delhi — reason unclear from the doc; possibly source availability in the Indiastat compilation, possibly deliberate metro outlier exclusion). Reassess inclusion for Part I rebuild and Part II."
 Chandigarh,CH,CHANDIGARH|chandigarh,TRUE,Not in Part I original panel. Reassess for Part II.
-Andaman and Nicobar Islands,AN,A & N Islands|A and N Islands|Andaman & Nicobar Islands|ANDAMAN AND NICOBAR ISLANDS|Andaman and Nicobar|A&N Islands|Andaman Nicobar,TRUE,Not in Part I original panel. Reassess for Part II.
-Lakshadweep,LD,LAKSHADWEEP|lakshadweep|Laccadives,TRUE,Not in Part I original panel. Reassess for Part II.
-Dadra and Nagar Haveli and Daman and Diu,DN,Dadra and Nagar Haveli|Daman and Diu|DNH and DD|DADRA AND NAGAR HAVELI AND DAMAN AND DIU|DNH|DD|Dadra & Nagar Haveli|Daman & Diu|D and N Haveli|Daman & Diu and Dadra & Nagar Haveli,TRUE,"Two pre-2020 UTs (Dadra & Nagar Haveli; Daman & Diu) merged into a single UT in Jan 2020. Both pre-merger spellings map to this canonical row. Not in Part I original panel."
-All India,ALL,ALL INDIA|India|INDIA|All-India|Total|TOTAL|Grand Total|All States|Total India|Pan-India,FALSE,Aggregate row — drop during ingestion. Keep in lookup so ingestion scripts can recognize and filter it rather than fuzzy-matching it to a state.
+Andaman and Nicobar Islands,AN,A & N Islands|A and N Islands|Andaman & Nicobar Islands|ANDAMAN & NICOBAR ISLANDS|ANDAMAN AND NICOBAR ISLANDS|Andaman and Nicobar|A&N Islands|Andaman Nicobar|Andaman & N. Island|Andaman & N Island|A & N. Island|Andaman And Nicobar Islands,TRUE,Not in Part I original panel. Reassess for Part II.
+Lakshadweep,LD,LAKSHADWEEP|lakshadweep|Laccadives|Lakshdweep|LAKSHDWEEP,TRUE,Not in Part I original panel. Reassess for Part II.
+Dadra and Nagar Haveli and Daman and Diu,DN,Dadra and Nagar Haveli|Daman and Diu|DNH and DD|DADRA AND NAGAR HAVELI AND DAMAN AND DIU|DNH|DD|Dadra & Nagar Haveli|Daman & Diu|DADRA & NAGAR HAVELI|DAMAN & DIU|D and N Haveli|D & N. Haveli & Daman & Diu|D & N Haveli & Daman & Diu|Dadar & Nagar Haweli (incl. Daman & Diu)|Dadar & Nagar Haweli|Dadar Haweli|Dadra & Nagar Haveli (incl. Daman & Diu)|Dadra And Nagar Haveli And Daman And Diu|Daman & Nagar Haveli and Daman and Diu|Daman & Nagar Haveli and Daman & Diu|Daman & Diu and Dadra & Nagar Haveli|Dadra & Nagar Haveli & Daman & Diu|Dadra and Nagar Haveli & Daman and Diu|The Dadra And Nagar Haveli And Daman And Diu,TRUE,"Two pre-2020 UTs (Dadra & Nagar Haveli; Daman & Diu) merged into a single UT in Jan 2020. Both pre-merger spellings map to this canonical row. Not in Part I original panel."
+All India,ALL,ALL INDIA|India|INDIA|All-India|Total|TOTAL|Grand Total|All States|Total India|Pan-India|all India,FALSE,Aggregate row — drop during ingestion. Keep in lookup so ingestion scripts can recognize and filter it rather than fuzzy-matching it to a state.
+Northern India,N_AGG,NORTHERN INDIA|northern india|North India|NORTH INDIA,FALSE,Indiastat regional aggregate (sum of N-region states). Drop during ingestion.
+Southern India,S_AGG,SOUTHERN INDIA|southern india|South India|SOUTH INDIA,FALSE,Indiastat regional aggregate (sum of S-region states). Drop during ingestion.
+Eastern India,E_AGG,EASTERN INDIA|eastern india|East India|EAST INDIA|Eastern Belt,FALSE,Indiastat regional aggregate (sum of E-region states). Drop during ingestion.
+Western and Central India,WC_AGG,Western & Central India|WESTERN & CENTRAL INDIA|western & central india|Western and Central|WESTERN AND CENTRAL INDIA,FALSE,Indiastat regional aggregate (sum of W&C-region states). Drop during ingestion.
+North East India,NE_AGG,North-East India|NORTH EAST INDIA|North East|NORTH-EAST INDIA|North-Eastern India|North Eastern India,FALSE,Indiastat regional aggregate (sum of north-east states). Drop during ingestion.
+Unclassified,UNC,UNCLASSIFIED|unclassified|Not Classified|Others|OTHERS,FALSE,"NPCI/Indiastat bucket for UPI transactions that cannot be state-attributed (routing / app-aggregation / institutional flows). Ran ~27-43% of total monthly UPI volume in FY 2024-25 and FY 2025-26 per the Indiastat state-wise tables. Drop during ingestion; flag share in the paper's data section as a measurement limitation for state-level Part II analysis."

@@ -1,0 +1,9 @@
+# Appendix A. Headline regressions with literacy added
+
+The two tables in this appendix show the headline specifications of Part I and Part II with log(literacy) added as a sixth control, alongside the headline specification (without literacy) and a univariate-literacy regression for reference. The tables document the empirical pattern discussed in §9: a strongly negative conditional elasticity on literacy in both eras, despite a univariate correlation that is statistically zero.
+
+**Table A.1 (Part I):** [output/tables/part1_appendix_with_literacy.tex](output/tables/part1_appendix_with_literacy.tex). Three columns: (A1) univariate literacy regression, (A2) Part I headline four-control specification, (A3) headline + log(literacy). N = 66 (33 states × 2 fiscal years). Year fixed effects, state-clustered standard errors.
+
+**Table A.2 (Part II):** [output/tables/part2_appendix_with_literacy.tex](output/tables/part2_appendix_with_literacy.tex). Three columns: (A1) univariate literacy regression, (A2) Part II headline five-control specification, (A3) headline + log(literacy). N = 99 (33 states × 3 twelve-month windows). Year-window fixed effects, state-clustered standard errors.
+
+In both tables, comparing column A2 to column A3 documents two things. First, adding log(literacy) to the headline produces a literacy elasticity that is large, negative, and statistically significant despite no univariate signal — the cross-era pattern that drives the measurement-validity diagnosis in §9. Second, adding log(literacy) eliminates the marginal significance of the PMJDY coefficient (A3) that was significant in the headline (A2). This second feature is what makes the variable's behaviour problematic for the substantive interpretation of the rest of the regression, not just for the literacy coefficient itself.

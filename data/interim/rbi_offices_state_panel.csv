@@ -1,0 +1,181 @@
+state_canonical,state_code,snapshot_date,offices
+Andaman and Nicobar Islands,AN,2020-03-31,74
+Andaman and Nicobar Islands,AN,2021-03-31,75
+Andaman and Nicobar Islands,AN,2024-03-31,78
+Andaman and Nicobar Islands,AN,2025-03-31,79
+Andaman and Nicobar Islands,AN,2025-12-31,80
+Andhra Pradesh,AP,2020-03-31,7505
+Andhra Pradesh,AP,2021-03-31,7741
+Andhra Pradesh,AP,2024-03-31,8272
+Andhra Pradesh,AP,2025-03-31,8493
+Andhra Pradesh,AP,2025-12-31,8629
+Arunachal Pradesh,AR,2020-03-31,184
+Arunachal Pradesh,AR,2021-03-31,191
+Arunachal Pradesh,AR,2024-03-31,224
+Arunachal Pradesh,AR,2025-03-31,246
+Arunachal Pradesh,AR,2025-12-31,257
+Assam,AS,2020-03-31,3042
+Assam,AS,2021-03-31,3147
+Assam,AS,2024-03-31,3312
+Assam,AS,2025-03-31,3353
+Assam,AS,2025-12-31,3393
+Bihar,BR,2020-03-31,7662
+Bihar,BR,2021-03-31,7835
+Bihar,BR,2024-03-31,8245
+Bihar,BR,2025-03-31,8465
+Bihar,BR,2025-12-31,8578
+Chandigarh,CH,2020-03-31,484
+Chandigarh,CH,2021-03-31,478
+Chandigarh,CH,2024-03-31,495
+Chandigarh,CH,2025-03-31,501
+Chandigarh,CH,2025-12-31,498
+Chhattisgarh,CG,2020-03-31,2930
+Chhattisgarh,CG,2021-03-31,2967
+Chhattisgarh,CG,2024-03-31,3227
+Chhattisgarh,CG,2025-03-31,3315
+Chhattisgarh,CG,2025-12-31,3370
+Dadra and Nagar Haveli and Daman and Diu,DN,2020-03-31,113
+Dadra and Nagar Haveli and Daman and Diu,DN,2021-03-31,107
+Dadra and Nagar Haveli and Daman and Diu,DN,2024-03-31,109
+Dadra and Nagar Haveli and Daman and Diu,DN,2025-03-31,114
+Dadra and Nagar Haveli and Daman and Diu,DN,2025-12-31,114
+Delhi,DL,2020-03-31,3969
+Delhi,DL,2021-03-31,3869
+Delhi,DL,2024-03-31,4042
+Delhi,DL,2025-03-31,4122
+Delhi,DL,2025-12-31,4184
+Goa,GA,2020-03-31,718
+Goa,GA,2021-03-31,707
+Goa,GA,2024-03-31,701
+Goa,GA,2025-03-31,722
+Goa,GA,2025-12-31,738
+Gujarat,GJ,2020-03-31,8918
+Gujarat,GJ,2021-03-31,8894
+Gujarat,GJ,2024-03-31,9582
+Gujarat,GJ,2025-03-31,9865
+Gujarat,GJ,2025-12-31,10097
+Haryana,HR,2020-03-31,5353
+Haryana,HR,2021-03-31,5348
+Haryana,HR,2024-03-31,5681
+Haryana,HR,2025-03-31,5838
+Haryana,HR,2025-12-31,6010
+Himachal Pradesh,HP,2020-03-31,1691
+Himachal Pradesh,HP,2021-03-31,1741
+Himachal Pradesh,HP,2024-03-31,1843
+Himachal Pradesh,HP,2025-03-31,1894
+Himachal Pradesh,HP,2025-12-31,1903
+Jammu and Kashmir,JK,2020-03-31,1806
+Jammu and Kashmir,JK,2021-03-31,1832
+Jammu and Kashmir,JK,2024-03-31,1977
+Jammu and Kashmir,JK,2025-03-31,2030
+Jammu and Kashmir,JK,2025-12-31,2053
+Jharkhand,JH,2020-03-31,3256
+Jharkhand,JH,2021-03-31,3320
+Jharkhand,JH,2024-03-31,3520
+Jharkhand,JH,2025-03-31,3635
+Jharkhand,JH,2025-12-31,3686
+Karnataka,KA,2020-03-31,11120
+Karnataka,KA,2021-03-31,11210
+Karnataka,KA,2024-03-31,11630
+Karnataka,KA,2025-03-31,11882
+Karnataka,KA,2025-12-31,12089
+Kerala,KL,2020-03-31,6975
+Kerala,KL,2021-03-31,7039
+Kerala,KL,2024-03-31,7372
+Kerala,KL,2025-03-31,7619
+Kerala,KL,2025-12-31,7706
+Ladakh,LA,2020-03-31,71
+Ladakh,LA,2021-03-31,78
+Ladakh,LA,2024-03-31,102
+Ladakh,LA,2025-03-31,105
+Ladakh,LA,2025-12-31,106
+Lakshadweep,LD,2020-03-31,15
+Lakshadweep,LD,2021-03-31,23
+Lakshadweep,LD,2024-03-31,25
+Lakshadweep,LD,2025-03-31,27
+Lakshadweep,LD,2025-12-31,28
+Madhya Pradesh,MP,2020-03-31,7437
+Madhya Pradesh,MP,2021-03-31,7539
+Madhya Pradesh,MP,2024-03-31,8045
+Madhya Pradesh,MP,2025-03-31,8287
+Madhya Pradesh,MP,2025-12-31,8392
+Maharashtra,MH,2020-03-31,14150
+Maharashtra,MH,2021-03-31,14181
+Maharashtra,MH,2024-03-31,15014
+Maharashtra,MH,2025-03-31,15432
+Maharashtra,MH,2025-12-31,15773
+Manipur,MN,2020-03-31,222
+Manipur,MN,2021-03-31,232
+Manipur,MN,2024-03-31,265
+Manipur,MN,2025-03-31,274
+Manipur,MN,2025-12-31,279
+Meghalaya,ML,2020-03-31,382
+Meghalaya,ML,2021-03-31,391
+Meghalaya,ML,2024-03-31,405
+Meghalaya,ML,2025-03-31,409
+Meghalaya,ML,2025-12-31,411
+Mizoram,MZ,2020-03-31,216
+Mizoram,MZ,2021-03-31,225
+Mizoram,MZ,2024-03-31,244
+Mizoram,MZ,2025-03-31,250
+Mizoram,MZ,2025-12-31,258
+Nagaland,NL,2020-03-31,195
+Nagaland,NL,2021-03-31,201
+Nagaland,NL,2024-03-31,227
+Nagaland,NL,2025-03-31,245
+Nagaland,NL,2025-12-31,253
+Odisha,OR,2020-03-31,5371
+Odisha,OR,2021-03-31,5534
+Odisha,OR,2024-03-31,5945
+Odisha,OR,2025-03-31,6131
+Odisha,OR,2025-12-31,6243
+Puducherry,PY,2020-03-31,276
+Puducherry,PY,2021-03-31,278
+Puducherry,PY,2024-03-31,295
+Puducherry,PY,2025-03-31,304
+Puducherry,PY,2025-12-31,305
+Punjab,PB,2020-03-31,6870
+Punjab,PB,2021-03-31,6855
+Punjab,PB,2024-03-31,6970
+Punjab,PB,2025-03-31,7141
+Punjab,PB,2025-12-31,7217
+Rajasthan,RJ,2020-03-31,7958
+Rajasthan,RJ,2021-03-31,8129
+Rajasthan,RJ,2024-03-31,8884
+Rajasthan,RJ,2025-03-31,9112
+Rajasthan,RJ,2025-12-31,9283
+Sikkim,SK,2020-03-31,165
+Sikkim,SK,2021-03-31,167
+Sikkim,SK,2024-03-31,180
+Sikkim,SK,2025-03-31,188
+Sikkim,SK,2025-12-31,193
+Tamil Nadu,TN,2020-03-31,12215
+Tamil Nadu,TN,2021-03-31,12410
+Tamil Nadu,TN,2024-03-31,13286
+Tamil Nadu,TN,2025-03-31,13710
+Tamil Nadu,TN,2025-12-31,13939
+Telangana,TG,2020-03-31,5614
+Telangana,TG,2021-03-31,5826
+Telangana,TG,2024-03-31,6323
+Telangana,TG,2025-03-31,6576
+Telangana,TG,2025-12-31,6714
+Tripura,TR,2020-03-31,587
+Tripura,TR,2021-03-31,598
+Tripura,TR,2024-03-31,653
+Tripura,TR,2025-03-31,664
+Tripura,TR,2025-12-31,671
+Uttar Pradesh,UP,2020-03-31,18434
+Uttar Pradesh,UP,2021-03-31,18629
+Uttar Pradesh,UP,2024-03-31,19507
+Uttar Pradesh,UP,2025-03-31,20061
+Uttar Pradesh,UP,2025-12-31,20365
+Uttarakhand,UK,2020-03-31,2240
+Uttarakhand,UK,2021-03-31,2285
+Uttarakhand,UK,2024-03-31,2362
+Uttarakhand,UK,2025-03-31,2441
+Uttarakhand,UK,2025-12-31,2480
+West Bengal,WB,2020-03-31,9442
+West Bengal,WB,2021-03-31,9603
+West Bengal,WB,2024-03-31,10237
+West Bengal,WB,2025-03-31,10446
+West Bengal,WB,2025-12-31,10579

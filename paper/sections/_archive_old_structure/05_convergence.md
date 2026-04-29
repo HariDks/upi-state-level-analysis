@@ -1,0 +1,25 @@
+# 5. Convergence: states are closing the gap
+
+The descriptive picture in §4 is a snapshot at FY 2024-25. This section adds the time dimension. Across the 34 months of state-level pure UPI data we have — April 2023 through January 2026 — has the cross-state dispersion in per-capita UPI use widened, narrowed, or held steady? Figure 4 plots two complementary dispersion measures over that window. Both narrow.
+
+## Two measures, both indexed to the panel start
+
+Figure 4 plots the cross-state coefficient of variation (CV — the cross-state standard deviation of monthly per-capita UPI divided by the cross-state mean) and the cross-state standard deviation of log per-capita UPI, each indexed to its own value at April 2023. The indexing makes the two series visually comparable: a value of 1.0 is the panel-start dispersion, a value of 0.7 means dispersion is 30 percent below where it started.
+
+Both measures fall steadily over the 34 months. The CV declines at roughly 10 percent per year, ending the panel about 27 percent below its April 2023 starting value. The standard deviation of log per-capita UPI declines at roughly 8 to 9 percent per year, ending about 24 percent below its starting value. The two measures track each other closely; the convergence finding does not depend on which one you choose. This is a useful robustness in itself, because the CV is sensitive to changes in the cross-state mean (which has been growing rapidly with national UPI volume) while the standard deviation of log per-capita UPI is not. They agree.
+
+## What this means substantively
+
+The cross-state coefficient of variation of monthly per-capita UPI fell by roughly ten percent per year over the panel period. In plain terms: low-use states are growing their per-capita UPI faster than high-use states are. The gap between the most-used and least-used states is closing. Across the same 34 months, the population-weighted national figure roughly doubled — UPI is growing rapidly everywhere — but it is growing fastest in states that started lowest. This is what sigma-convergence looks like when the underlying variable is growing, and it is the empirical pattern most consistent with a digital-payments rail that is becoming more uniformly available across India's states over time.
+
+A useful way to think about the magnitude: at the panel-start level of dispersion, the highest-use state did about ten times the per-capita volume of the lowest-use state. By January 2026, that ratio had fallen closer to eight. The gap is still large — convergence is not parity — but the trend over thirty-four months has been steady downward narrowing.
+
+## Two caveats worth noting
+
+The "Unclassified" share of UPI national volume grew over the panel period, from around twelve percent in April 2023 to nearly forty percent by January 2026. Because Unclassified transactions cannot be assigned to a specific state, a growing Unclassified share could in principle compress the observed cross-state dispersion artificially, even if the underlying state-level dispersion is unchanged. We tested whether the loss-to-Unclassified is concentrated in particular states (which would create a measurement-driven illusion of convergence) or roughly random across states. The Pearson correlation between a state's per-capita UPI and its share of monthly transactions assigned to it (rather than Unclassified) is small in magnitude and not statistically distinguishable from zero. The convergence trend in Figure 4 is robust to the bucket.
+
+A second caveat is that one large state — Maharashtra — has lost close to six percentage points of national UPI share over the panel period. This is consistent with a disproportionate share of Maharashtra's volume migrating into the Unclassified bucket (a non-trivial fraction of UPI traffic that originates through Mumbai-based payment infrastructure may be reported without state attribution). Other large states have moved less. Maharashtra is therefore a candidate explanation for some of the cross-state narrowing — its observed per-capita UPI fell as Unclassified absorbed its volume, mechanically compressing the spread. We document this in Appendix B but flag here that the convergence pattern is not driven *only* by Maharashtra: leaving it out of the cross-state series leaves the downward trend in both dispersion measures qualitatively intact, with a slightly smaller slope.
+
+## Convergence and the rest of the paper
+
+The convergence finding is descriptive, not causal. It tells us that the cross-state distribution of per-capita UPI use is narrowing as the system grows, but it does not tell us *why* — which states are gaining ground fastest, which characteristics of those states are associated with the narrowing, or whether the pattern reflects active policy or natural diffusion of the rail. Those questions are what the regressions in §6 and §7 take up. This section establishes that the cross-state pattern *is* moving — and moving in a particular direction — over the 34 months of mature-era data. Parts I and II then ask what predicts where states sit in that pattern at any given point in time.

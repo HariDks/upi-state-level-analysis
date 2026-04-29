@@ -58,7 +58,9 @@ choices unless I explicitly ask:
 - **Version control:** Git. Commit after every meaningful unit of work.
 - **Key R packages:** `renv` (environment lockfile), `fixest` (regressions
   and fixed effects), `modelsummary` (tables), `tidyverse` (data wrangling),
-  `readxl` (Excel ingestion), `janitor` (name cleaning), `fwildclusterboot`
+  `readxl` (Excel ingestion), `rvest` (HTML-as-XLS parsing for Indiastat
+  exports), `janitor` (name cleaning), `pdftools` (PDF text extraction,
+  for MoHFW / PLFS / TRAI / Census report parsing), `fwildclusterboot`
   (wild cluster bootstrap), `did` (Callaway-Sant'Anna DiD, if used).
 - **Output format:** LaTeX for tables, PDF for the final paper.
 
@@ -82,7 +84,9 @@ digital-payments-thesis/
 │   │   ├── plfs/
 │   │   ├── trai/
 │   │   ├── pmjdy/
-│   │   └── meity/
+│   │   ├── meity/
+│   │   ├── mohfw/         # population projections, RHS (PHCs)
+│   │   └── census/        # urbanization share, state land area
 │   ├── interim/           # cleaned single-source files (CSV)
 │   └── processed/         # final panels (CSV, parquet if large)
 ├── lookups/
@@ -172,8 +176,17 @@ them into a single panel without asking me first.
 
 **Series 1 (Part I):** Indiastat "State-wise Number of Digital Payment
 Transactions through BHIM App, IMPS, RuPay on POS, UPI and USSD",
-years 2017-18, 2019-20, 2020-21. Units: number of transactions.
-Five-rail composite. This is the original thesis's dependent variable.
+years **2019-20 and 2020-21 only**. Units: number of transactions.
+Five-rail composite. Per the 2026-04-24 Option A decision, FY 2017-18
+is dropped from Part I because the underlying Indiastat compilation for
+2017-18 (from Lok Sabha Unstarred Question No. 5291) reports only a
+3-rail composite (BHIM + UPI + USSD), while the 2019-20 / 2020-21
+compilation (Lok Sabha Unstarred Question No. 1425) is the full 5-rail
+composite. Chaining the two would re-introduce the definitional break
+this section forbids. See
+data/raw/indiastat/series1_digital_payments/_MANIFEST.txt for the full
+rationale and a note on why the original thesis's DV was miscomposed.
+Part I panel is therefore 30 units × 2 FYs = 60 observations.
 
 **Series 2 (optional for Part I robustness):** Indiastat "State-wise
 Volume and Value of Digital Transactions (Financial and Non-Financial)",
@@ -190,6 +203,51 @@ institutional transfers.
 
 In the paper, describe each series precisely every time it's introduced.
 Do not refer to "digital payments" without qualifying which series.
+
+---
+
+## 7a. Variable set — narrowed from the original thesis (overhaul, 2026-04-26)
+
+The original 2024 thesis used a kitchen-sink set of 9 controls in the
+combined regression (birth rate, death rate, two state-finance ratios,
+literacy, electricity, urban income, PHCs/sq km, CSCs/GP). Several of
+those — especially the demographic and state-finance variables — have no
+clean theoretical channel to digital-payment adoption and were included
+because they were available, not because they earn their place. The
+rebuild narrows to a theoretically-anchored set of six (plus an optional
+seventh):
+
+  Focal §9 variable:
+   1. ln(PHCs per sq km) — the variable whose original coefficient
+      (-22.45***) the rebuild is correcting.
+
+  §9 correction additions (drives the headline narrative):
+   2. share_urban
+   3. ln(population density)
+
+  First-order channels for digital-payment adoption:
+   4. ln(literacy rate) — ability to read app screens, type IDs.
+   5. ln(per-capita NSDP) — income / purchasing power → transaction volume.
+   6. ln(internet or wireless subscribers per capita) — physical mechanism;
+      UPI requires a smartphone with an internet connection.
+   7. (optional) ln(bank branches per capita) — banking-system access.
+
+Both Part I and Part II use the SAME control set so Part III's
+"what changed" comparison is coefficient-on-coefficient meaningful.
+
+DROPPED from the original thesis's spec (do not re-introduce without
+new theoretical justification):
+  - Birth rate, Death rate (no clear digital-adoption channel)
+  - Non-Dev Exp / Aggregate Disbursement, Gross Transfers / Aggregate
+    Disbursement (state-government allocation, not household behaviour)
+  - Per Capita Electricity (collinear with NSDP)
+  - Per Capita Urban Income (replaced by general per-capita NSDP)
+  - CSCs per Gram Panchayat (weak in original; demoted to robustness
+    check at most)
+
+Functional form: log-log throughout (clean elasticity interpretation).
+The original used Log-Level which made the PHC coefficient (-22.45) hard
+to interpret economically.
 
 ---
 
@@ -330,6 +388,11 @@ Overall timeline: 12-16 weekends.
 
 ---
 
-*Last updated: 2026-04-23. Phase 0 scaffold commit — added `renv` to the
-package list in §3. Update this footer line whenever substantive rules
-change, and note the change in the git commit.*
+*Last updated: 2026-04-26. New §7a — narrowed variable set from the
+original thesis's kitchen-sink 9-control spec to a theoretically-anchored
+6-variable set (plus optional 7th). Same set used in Part I and Part II
+so Part III is coefficient-comparable. Functional form switched to
+log-log. Drops birth/death rates, two state-finance ratios, electricity,
+urban income, CSCs/GP. Prior update 2026-04-24: §7 Series 1 scope to FY
+2019-20 + 2020-21 only (Option A). Prior 2026-04-23: §4 directory tree
++ §3 renv. Update this footer whenever substantive rules change.*
