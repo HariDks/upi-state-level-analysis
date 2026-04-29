@@ -34,5 +34,5 @@ Total UPI States-2021/
 # Claude Code project instructions — local-only, not for the public repo
 CLAUDE.md
 
-# Internal learning journal — local-only
-learning day 1.md
+# Internal learning journal — local-only (all "learning day N.md" files)
+learning day *.md
